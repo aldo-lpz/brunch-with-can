@@ -1,0 +1,16 @@
+{
+  "name": "app name",
+  "version": "0.0.1",
+  "main": "public/app.js",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ],
+  "dependencies": {
+    "lodash": "~2",
+    "jquery": "~2",
+    "bootstrap":"~3"
+  },
+  "overrides": {}
+}
