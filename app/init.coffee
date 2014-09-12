@@ -13,12 +13,17 @@ $(document).ready ->
 			this.attr 'lastName', ''
 
 	componentScope = can.Map.extend
-		name : ''
+		message : ''
 
 	can.Component.extend
 		tag      : "hello-world"
 		template : can.view "templates/hello.mustache"
 		scope    : componentScope
+		events   : 
+			click : (element, ev) ->
+				element.parent().css "background", "#FFBC42"
+				element.find(".changeMe").empty()
+				this.scope.attr 'message', 'hola :)'
 
 
 	$('.outlet').html can.view 'templates/basicInfo.mustache', new viewModel()
