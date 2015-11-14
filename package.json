@@ -1,5 +1,5 @@
 {
-  "name": "awesome app name",
+  "name": "awesome-app-name",
   "description": "a descriptive description",
   "author": "Your Name",
   "version": "0.0.1",
@@ -19,6 +19,6 @@
     "auto-reload-brunch": ">= 1.0 < 1.8",
     "coffee-script-brunch": "1.8.0",
     "stylus-brunch": "1.8.1",
-    "can-compile-brunch": "0.1.1"
+    "can-compile-brunch": "0.1.2"
   }
 }
